@@ -1,0 +1,9 @@
+1 ||| (p \land q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+2 ||| (p \land q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+3 ||| (p \land q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+4 ||| (p \land q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+5 ||| (p \land q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+6 ||| (p \land q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+7 ||| (p \land q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+8 ||| (p \lor q) \land (\neg r) ||| $\left(p \wedge \neg r\right) \vee \left(q \wedge \neg r\right)$
+9 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
