@@ -30,7 +30,7 @@ class App:
         Button(btn_frame, text="Guardar Imagen", command=self.guardar_imagen).grid(row=0, column=3, padx=5)
 
         Label(root, text="Ejemplos rápidos:").pack()
-        self.combo = Combobox(root, values=[r"\neg(p \lor q)", r"(p \land q) \rightarrow r", r"\neg(p \rightarrow q)"], width=40)
+        self.combo = Combobox(root, values=[r"(p \lor q \lor r) \land (\neg p \lor \neg q)", r"\neg (p \land q) \lor r", r"\neg (p \lor (q \land r))"], width=40)
         self.combo.pack()
         self.combo.bind("<<ComboboxSelected>>", self.insertar_ejemplo)
 

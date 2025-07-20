@@ -7,3 +7,34 @@
 7 ||| (p \land q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
 8 ||| (p \lor q) \land (\neg r) ||| $\left(p \wedge \neg r\right) \vee \left(q \wedge \neg r\right)$
 9 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+10 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+11 ||| (p \lor q) \land (\neg r) ||| $\left(p \wedge \neg r\right) \vee \left(q \wedge \neg r\right)$
+12 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+13 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+14 ||| (p \lor q) \land (\neg r) ||| $\left(p \wedge \neg r\right) \vee \left(q \wedge \neg r\right)$
+15 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+16 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+17 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+18 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+19 ||| (p \land q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+20 ||| (p \land q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+21 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+22 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+23 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+24 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+25 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+26 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+27 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+28 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+29 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+30 ||| \neg (p \land q) \lor r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+31 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+32 ||| \neg (p \land q) \lor r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+33 ||| \neg (p \lor (q \land r)) ||| $\left(\neg p \wedge \neg q\right) \vee \left(\neg p \wedge \neg r\right)$
+34 ||| \neg (p \lor (q \land r)) ||| $\left(\neg p \wedge \neg q\right) \vee \left(\neg p \wedge \neg r\right)$
+35 ||| \neg (p \land q) \lor r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+36 ||| p \leftrightarrow q ||| $False$
+37 ||| p \lor q ||| $\left(p\right) \vee \left(q\right)$
+38 ||| p \lor q ||| $\left(p\right) \vee \left(q\right)$
+39 ||| p \lor q ||| $\left(p\right) \vee \left(q\right)$
+40 ||| (p \lor q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p \wedge \neg q\right)$

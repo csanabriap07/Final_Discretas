@@ -3,13 +3,13 @@ from sympy import symbols
 from sympy.parsing.sympy_parser import parse_expr
 
 def latex_a_sympy(expr_latex: str) -> str:
-    expr_latex = expr_latex.strip('$').strip().strip('\[').strip('\]')
+    expr_latex = expr_latex.strip('$').strip().strip('[').strip(']')
     reemplazos = {
-        r'\\neg': '~', r'\\land': '&', r'\\lor': '|',
-        r'\\rightarrow': '>>', r'\\leftrightarrow': '=='
+        '\\neg': '~', '\\land': '&', '\\lor': '|',
+        '\\rightarrow': '>>', '\\leftrightarrow': '=='
     }
     for k, v in reemplazos.items():
-        expr_latex = re.sub(k, v, expr_latex)
+        expr_latex = expr_latex.replace(k, v)
     return re.sub(r'\s+', '', expr_latex)
 
 def obtener_variables(expr_str: str) -> list[str]:
