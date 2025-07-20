@@ -38,3 +38,7 @@
 38 ||| p \lor q ||| $\left(p\right) \vee \left(q\right)$
 39 ||| p \lor q ||| $\left(p\right) \vee \left(q\right)$
 40 ||| (p \lor q) \rightarrow r ||| $\left(r\right) \vee \left(\neg p \wedge \neg q\right)$
+41 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
+42 ||| \neg (p \land q) \lor r ||| $\left(r\right) \vee \left(\neg p\right) \vee \left(\neg q\right)$
+43 ||| \neg (p \lor (q \land r)) ||| $\left(\neg p \wedge \neg q\right) \vee \left(\neg p \wedge \neg r\right)$
+44 ||| (p \lor q \lor r) \land (\neg p \lor \neg q) ||| $\left(p \wedge \neg q\right) \vee \left(q \wedge \neg p\right) \vee \left(r \wedge \neg p\right)$
