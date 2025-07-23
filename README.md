@@ -26,4 +26,7 @@ Facilitar el aprendizaje y la verificación de la **lógica proposicional** medi
 
 Instala las dependencias con:
 ```bash
-pip install sympy matplotlib
+pip install sympy matplotlib ttkbootstrap pyperclip
+
+## Ejecutar progama
+python Final_Discretas-main/main.py
